@@ -1,0 +1,16 @@
+function setup(){
+    createCanvas(500,500)
+    background(18,23,84)
+} 
+
+function mouseDragged(){
+    fill(84,18,18);
+    let x = random(10,30)
+    let y = random(10,40) 
+    ellipse(mouseX,mouseY,x,y);
+}
+
+function draw(){
+    mouseDragged();
+    
+}
