@@ -1,0 +1,58 @@
+body {
+    background-color:aliceblue;
+}
+
+h2 {
+    margin: auto;
+    
+}
+
+#formBox {
+    padding: auto;
+    margin-left: 15em;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    margin-left: 3em;
+    color: antiquewhite;
+    background: linear-gradient(to left, #af3bea, #48ec74);
+    border-radius: 10em;
+    height: 40px;
+    width: 400px;
+}
+
+.input {
+
+    position:relative;
+    font-size: 1.5em;
+    background: linear-gradient(21deg, #e3f3fb, #1beabd);
+    padding: .25em;
+    cursor: text;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    isplay: inline-block;
+    border-radius: 9999em;
+}
+
+form {
+    margin: auto;
+    padding: auto;
+}
+
+div:hover {
+    cursor: text;
+    height: 20%;
+}
+
+input {
+    padding: 10px;
+    cursor: text;
+    font-family: inherit;
+    line-height:inherit;
+    color:#fff1f9;
+    min-width:12em;
+}
+    

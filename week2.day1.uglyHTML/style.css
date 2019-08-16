@@ -1,0 +1,52 @@
+body{
+    background-color: darkred;
+}
+
+h1{ 
+    text-align: center;
+    color: white;
+}
+div{ 
+    background-color: darkred;
+    border: 1px solid   black;
+    text-align: center;
+    margin: auto;
+}
+
+.watch_container > img{
+    float: left;
+    max-height:200px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text {
+    border-radius: 20px;
+    border-color: goldenrod;
+    margin-top: 10px;
+    
+}
+
+.text > h2{
+    text-align: left;
+    color: goldenrod;
+}
+.watch_description{
+    text-align: left;
+   color: goldenrod;
+}
+
+.top > header{
+    font-family: tangerine;
+    font-size: 72px;
+    color: goldenrod;
+}
+.top{
+    color: goldenrod;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
